@@ -57,7 +57,7 @@ descendants:
    list of pets using `fetch()`.
 
   - Assuming your app is up and running, you can make a fetch to this exact URL:
-    `/api/pets` with an **optional query parameter** to get your data.
+    `pets/api/` with an **optional query parameter** to get your data.
   - Use `App`'s state.filters to control/update this parameter
   - If the `type` is `'all'`, send a request to `/api/pets`
   - If the `type` is `'cat'`, send a request to `/api/pets?type=cat`. Do the
